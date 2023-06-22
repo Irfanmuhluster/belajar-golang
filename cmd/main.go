@@ -6,6 +6,6 @@ import (
 )
 
 func main(){
-	gabungan := user.dataUser("John", 32)
-	fmt.Println(gabungan)
+	hasil := user.DataUser()
+	fmt.Println(hasil)
 }
