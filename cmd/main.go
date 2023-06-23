@@ -6,6 +6,6 @@ import (
 )
 
 func main(){
-	hasil := user.DataUser()
-	fmt.Println(hasil)
+	firstName, lastName, age, salary := user.DataUserInference()
+	fmt.Printf("firstName: %v, lastName: %v, age: %v, salary: %v\n", firstName, lastName, age, salary)
 }
