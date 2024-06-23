@@ -1,6 +1,6 @@
-package calculator
+package math
 
 func Add(a, b int) int {
-    result := a + b // Deklarasi dan inisialisasi variabel result
-    return result
+	result := a + b // Deklarasi dan inisialisasi variabel result
+	return result
 }
